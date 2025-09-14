@@ -17,9 +17,10 @@
 #X floatatom 247 12 5 0 0 0 - - - 0;
 #X obj 347 97 float \$1;
 #X text 186 100 minimum:;
+#X obj 279 197 t f b;
 #X connect 0 0 8 0;
 #X connect 1 0 7 0;
-#X connect 2 0 8 1;
+#X connect 2 0 18 0;
 #X connect 3 0 13 0;
 #X connect 5 0 6 0;
 #X connect 6 0 13 1;
@@ -35,4 +36,6 @@
 #X connect 15 0 7 0;
 #X connect 16 0 2 0;
 #X connect 16 0 12 0;
+#X connect 18 0 8 1;
+#X connect 18 1 0 0;
 #X coords 0 -1 1 1 185 38 1 100 100;
