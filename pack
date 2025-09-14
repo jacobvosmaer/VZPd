@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+name=VZPd-$(date -u +%Y-%m-%dT%H_%M_%SZ)
+git archive --format=zip --prefix=$name/ -o $name.zip HEAD
