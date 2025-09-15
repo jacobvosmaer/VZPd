@@ -1,4 +1,4 @@
-#N canvas 811 255 450 300 12;
+#N canvas 853 454 808 488 12;
 #X obj 27 184 cos~;
 #X obj 27 104 wrap~;
 #X obj 27 11 inlet~;
@@ -10,10 +10,10 @@
 #X obj 27 71 +~ 0;
 #X obj 98 52 / 2;
 #X obj 27 35 *~ 2;
-#X text 310 60 vzosc~;
 #X text 263 87 left inlet is phase, f 20;
 #X text 267 114 right inlet and creation argument is "shape" \, a number greater than 0 and less or equal 0.5., f 21;
 #X text 258 220 shape 0.5 is a sine wave;
+#X text 310 60 ipdosc~;
 #X connect 0 0 3 0;
 #X connect 1 0 6 0;
 #X connect 2 0 10 0;
