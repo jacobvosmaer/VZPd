@@ -15,8 +15,8 @@
 #X floatatom 173 490 5 0 0 0 - - - 0;
 #X obj 93 536 hip~ 10;
 #X msg 76 63 50;
-#X msg 157 74 131;
-#X obj 177 12 loadbang;
+#X msg 22 67 131;
+#X obj 117 1 loadbang;
 #X obj 85 163 vzsine~;
 #X obj 175 164 vzsaw1~;
 #X obj 263 161 vzsaw2~;
@@ -26,6 +26,7 @@
 #X obj 86 220 vol~ 5;
 #X obj 83 124 phasor~;
 #X obj 89 310 vzsaw5~;
+#X msg 135 57 0;
 #X connect 0 0 1 0;
 #X connect 0 0 1 1;
 #X connect 2 0 0 0;
@@ -38,7 +39,7 @@
 #X connect 10 0 20 0;
 #X connect 11 0 20 0;
 #X connect 12 0 10 0;
-#X connect 12 0 20 1;
+#X connect 12 0 22 0;
 #X connect 13 0 19 0;
 #X connect 19 0 21 0;
 #X connect 20 0 13 0;
@@ -48,3 +49,4 @@
 #X connect 20 0 15 0;
 #X connect 20 0 14 0;
 #X connect 21 0 9 0;
+#X connect 22 0 20 1;
