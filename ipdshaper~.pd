@@ -9,14 +9,14 @@
 #X obj 117 108 float \$1;
 #X obj 34 186 +~ 0;
 #X obj 117 154 / 2;
-#X obj 34 158 *~ 2;
 #X text 270 182 left inlet is phase, f 20;
 #X text 274 209 right inlet and creation argument is "shape" \, a number greater than 0 and less or equal 0.5., f 21;
 #X text 265 315 shape 0.5 is a sine wave;
 #X text 317 155 ipdosc~;
+#X obj 34 158 *~ 1.987;
 #X connect 0 0 3 0;
 #X connect 1 0 6 0;
-#X connect 2 0 10 0;
+#X connect 2 0 14 0;
 #X connect 4 0 7 0;
 #X connect 5 0 7 0;
 #X connect 6 0 0 0;
@@ -24,4 +24,4 @@
 #X connect 7 0 9 0;
 #X connect 8 0 1 0;
 #X connect 9 0 8 1;
-#X connect 10 0 8 0;
+#X connect 14 0 8 0;
